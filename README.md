@@ -17,7 +17,7 @@ python yolo26_train.py --data /root/data.yaml --workers 16 --batch 256
 python rtdetr_train.py --data /root/data.yaml --workers 16 --batch 256
 ## rfdetr ##
 python rfdetr_train.py
-# 3. Metrics, infer #
+# 3. Metrics, Infer #
 ## retina ##
 python metrics_retina.py
 ## fasterrcnn ##
@@ -30,11 +30,11 @@ python metrics_yolo26.py
 python metrics_rtdetr.py
 ## rfdetr ##
 python metrics_rfdetr.py
-# AP50 AP50:95 P R F1 summary per class #
+# 4. AP50 AP50:95 P R F1 summary per class #
 metrics_cal.ipynb
-# 4. Test image #
+# 5. Test image #
 python image_test.py --model /root/xxx.pt  --image /root/testimage/test3.png  --output /root/output
-# 5. Subset generating #
+# 6. Subset generating #
 yolo
 python subset_generate_yolo.py --data data.yaml --ratio 8
 coco

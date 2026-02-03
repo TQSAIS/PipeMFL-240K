@@ -1,8 +1,8 @@
 # PipeMFL-240K: A Large-scale Dataset and Benchmark for Object Detection in Pipeline Magnetic Flux Leakage Imaging #
-# dataset
+# 1. Dataset
 https://doi.org/10.57967/hf/7651
 Suggested Citation: Qu, T., Yang, S.,Wang, H., Song, H., Guo, X.,Hu, W., Liu, G., Chen, H. & Ou, Y.(2026). PipeMFL-240K: A Large-scale Dataset and Benchmark for Object Detection in Pipeline Magnetic Flux Leakage Imaging. 
-# train #
+# 2. Train #
 ## retina ##
 python retina_train.py --train-root /root//train  --val-root /root/val 
 ## fasterrcnn ##
@@ -17,7 +17,7 @@ python yolo26_train.py --data /root/data.yaml --workers 16 --batch 256
 python rtdetr_train.py --data /root/data.yaml --workers 16 --batch 256
 ## rfdetr ##
 python rfdetr_train.py
-# metrics, infer #
+# 3. Metrics, infer #
 ## retina ##
 python metrics_retina.py
 ## fasterrcnn ##
@@ -32,9 +32,9 @@ python metrics_rtdetr.py
 python metrics_rfdetr.py
 # AP50 AP50:95 P R F1 summary per class #
 metrics_cal.ipynb
-# test image #
+# 4. Test image #
 python image_test.py --model /root/xxx.pt  --image /root/testimage/test3.png  --output /root/output
-# subset generating #
+# 5. Subset generating #
 yolo
 python subset_generate_yolo.py --data data.yaml --ratio 8
 coco

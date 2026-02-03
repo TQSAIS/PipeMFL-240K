@@ -30,7 +30,7 @@ python metrics_rfdetr.py
 # AP50 AP50:95 P R F1 summary per class #
 metrics_cal.ipynb
 # test image #
-python image_test.py --model /root/xxx.pt  --image /root/images/test3.png  --output /root/output
+python image_test.py --model /root/xxx.pt  --image /root/testimage/test3.png  --output /root/output
 # subset generating #
 yolo
 python subset_generate_yolo.py --data data.yaml --ratio 8

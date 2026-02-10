@@ -4,7 +4,7 @@ https://arxiv.org/abs/2602.07044
 
 ## Citation
 
-If you find our work helpful for your research, please consider citing the following BibTeX entry.
+If you find our dataset helpful for your research, please consider citing the following BibTeX entry.
 
 ```bibtex
 @misc{pipemfl240k,

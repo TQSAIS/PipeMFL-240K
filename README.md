@@ -1,7 +1,8 @@
 # PipeMFL-240K: A Large-scale Dataset and Benchmark for Object Detection in Pipeline Magnetic Flux Leakage Imaging #
+# https://arxiv.org/abs/2602.07044 #
 # 1. Dataset
 https://doi.org/10.57967/hf/7651
-Suggested Citation: Qu, T., Yang, S.,Wang, H., Song, H., Guo, X.,Hu, W., Liu, G., Chen, H. & Ou, Y.(2026). PipeMFL-240K: A Large-scale Dataset and Benchmark for Object Detection in Pipeline Magnetic Flux Leakage Imaging. 
+Suggested Citation: T. Qu, S. Yang, H. Wang et al., “PipeMFL-240K: A Large-scale Dataset and Benchmark for Object Detection in Pipeline Magnetic Flux Leakage Imaging,” arXiv.org, 2026. https://arxiv.org/abs/2602.07044.
 # 2. Train #
 ## retina ##
 python retina_train.py --train-root /root//train  --val-root /root/val 

@@ -1,6 +1,8 @@
 # [KDD 2026] PipeMFL-240K: A Large-scale Dataset and Benchmark for Object Detection in Pipeline Magnetic Flux Leakage Imaging #
 https://arxiv.org/abs/2602.07044
+## Update
 
+- **[2026-05-17]** :tada::tada:Our dataset and benchmark paper has been accepted by The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026)! :tada::tada:
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 

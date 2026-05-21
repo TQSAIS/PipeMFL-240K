@@ -21,14 +21,15 @@ This work is licensed under a
 If you find our dataset helpful for your research, please consider citing the following BibTeX entry.
 
 ```bibtex
-@misc{pipemfl240k,
-    title={PipeMFL-240K: A Large-scale Dataset and Benchmark for Object Detection in Pipeline Magnetic Flux Leakage Imaging}, 
-    author={Tianyi Qu and Songxiao Yang and Haolin Wang and Huadong Song and Xiaoting Guo and Wenguang Hu and Guanlin Liu and Honghe Chen and Yafei Ou},
-    year={2026},
-    eprint={2602.07044},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url={https://arxiv.org/abs/2602.07044},
+
+@inproceedings{qu2026mfl240k,
+  title     = {PipeMFL-240K: A Large-scale Dataset and Benchmark for Object Detection in Pipeline Magnetic Flux Leakage Imaging},
+  author    = {Tianyi Qu and Songxiao Yang and Haolin Wang and Huadong Song and Xiaoting Guo and Wenguang Hu and Guanlin Liu and Honghe Chen and Yafei Ou},
+  booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD 2026)},
+  year      = {2026},
+  address   = {Jeju Island, Republic of Korea},
+  publisher = {ACM},
+  doi       = {10.1145/3770855.3817449}
 }
 ```
 
